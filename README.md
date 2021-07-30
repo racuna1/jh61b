@@ -1,3 +1,11 @@
+# Background
+This repo is forked from UCSB, who pulled out the jh61b library for JUnit annotations from Gradescope's inital autograder package. My changes are only in the POM file:
+* Changed from JUnit 4.12 to JUnit 5.7.2.
+* Changed maven-compiler-plugin from 3.5.1 to 3.8.1.
+* Changed maven target from Java 1.8 to 11. (Supposedly needed for JUnit 5.)
+
+-RA
+
 # Repo to separately compile jh61b-1.0.jar
 
 This repo pulls out the code for the jh61b-1.0 library
